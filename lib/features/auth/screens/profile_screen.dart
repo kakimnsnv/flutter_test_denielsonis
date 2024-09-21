@@ -126,7 +126,7 @@ class ProfileTopContainer extends StatelessWidget {
             padding: const EdgeInsets.symmetric(vertical: 16).r,
             child: CircleAvatar(
               radius: 60.r,
-              child: Image.network(controller.user?.imageURL ?? ""),
+              child: Image.network(controller.user?.imageURL ?? "https://th.bing.com/th/id/OIP.1gqxePGrU4JMYrWZJy1XaQAAAA?rs=1&pid=ImgDetMain"),
             ),
           ),
           Text(controller.user?.name ?? "Байда Вишневецький", style: Theme.of(context).textTheme.titleLarge),

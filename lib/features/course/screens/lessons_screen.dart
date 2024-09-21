@@ -207,7 +207,7 @@ class LessonsScreenTop extends StatelessWidget {
         children: [
           CircleAvatar(
             radius: 22.r,
-            child: Image.network(""),
+            child: Image.network("https://th.bing.com/th/id/OIP.1gqxePGrU4JMYrWZJy1XaQAAAA?rs=1&pid=ImgDetMain"),
           ),
           SizedBox(width: 10.w),
           Expanded(
