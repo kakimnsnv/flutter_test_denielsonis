@@ -1,0 +1,40 @@
+{
+    "login": "Login",
+    "signIn": "Sign in",
+    "loginGreetingText": "Greeting!",
+    "signInWithPhone": "Sign in with phone",
+    "emailError": "Email error text should be here",
+    "passwordError": "Password error text should be here",
+    "or": "or",
+    "signInWithFacebook": "Sign in with Facebook",
+    "signInWithGoogle": "Sign in with Google",
+    "forgotPassword": "Forgot password?",
+    "dontHaveAccount": "Don't have an account?",
+    "dontHaveAccountCreate": "Create one",
+    "subscriptionBadgeTitle": "subscriptionBadgeTitle",
+    "subscriptionBadgeDescription": "subscriptionBadgeDescription",
+    "subscriptionBadgeSubtitle": "subscriptionBadgeSubtitle",
+    "buySubscription": "buySubscription",
+    "section": "section",
+    "sectionSubtitle": "sectionSubtitle",
+    "lesson": "lesson",
+    "subscriptionPaymentDate": "subscriptionPaymentDate {dateTime}",
+    "@subscriptionPaymentDate": {
+        "placeholders": {
+            "dateTime": {
+                "type": "DateTime",
+                "format": "dd.MM.yyyy",
+                "isCustromDateFormat": "true"
+            }
+        }
+    },
+    "language": "language",
+    "changePassword": "changePassword",
+    "notifications": "notifications",
+    "shareWithFriends": "shareWithFriends",
+    "licenceAgreement": "licenceAgreement",
+    "profile": "profile",
+    "plan": "plan",
+    "lessons": "lessons",
+    "favorites": "favorites"
+}
