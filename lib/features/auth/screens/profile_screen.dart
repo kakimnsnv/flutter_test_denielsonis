@@ -124,9 +124,16 @@ class ProfileTopContainer extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 16).r,
-            child: CircleAvatar(
-              radius: 60.r,
-              child: Image.network(controller.user?.imageURL ?? "https://th.bing.com/th/id/OIP.1gqxePGrU4JMYrWZJy1XaQAAAA?rs=1&pid=ImgDetMain"),
+            child: SizedBox(
+              height: 120.h,
+              width: 120.w,
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(60).r,
+                child: Image.network(
+                  controller.user?.imageURL ?? "https://th.bing.com/th/id/OIP.1gqxePGrU4JMYrWZJy1XaQAAAA?rs=1&pid=ImgDetMain",
+                  fit: BoxFit.fill,
+                ),
+              ),
             ),
           ),
           Text(controller.user?.name ?? "Байда Вишневецький", style: Theme.of(context).textTheme.titleLarge),

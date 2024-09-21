@@ -6,7 +6,6 @@ import 'package:flutter_test_denielsonis/features/course/controllers/lesson_scre
 import 'package:flutter_test_denielsonis/features/course/models/lesson_models.dart';
 import 'package:flutter_test_denielsonis/generated/l10n.dart';
 import 'package:get/get.dart';
-import 'package:flutter_svg/svg.dart';
 
 class LessonsScreen extends StatelessWidget {
   LessonsScreen({super.key});
@@ -205,9 +204,16 @@ class LessonsScreenTop extends StatelessWidget {
       padding: const EdgeInsets.all(16).r,
       child: Row(
         children: [
-          CircleAvatar(
-            radius: 22.r,
-            child: Image.network("https://th.bing.com/th/id/OIP.1gqxePGrU4JMYrWZJy1XaQAAAA?rs=1&pid=ImgDetMain"),
+          SizedBox(
+            height: 44.h,
+            width: 44.w,
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(22).r,
+              child: Image.network(
+                "https://th.bing.com/th/id/OIP.1gqxePGrU4JMYrWZJy1XaQAAAA?rs=1&pid=ImgDetMain",
+                fit: BoxFit.fill,
+              ),
+            ),
           ),
           SizedBox(width: 10.w),
           Expanded(
